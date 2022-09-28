@@ -19,3 +19,18 @@
     background-color:rgb(210, 127, 255);
     color: white;
 }
+
+.home-image {
+    background-image: url("haikyuu wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.home-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    color: #ddd;
+}
