@@ -24,9 +24,11 @@ body, html {
     height: 100%;
 }
 .home-text {
-    text-align: left;
+    text-align: center;
     position: absolute;
-    top: 20%;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #ddd;
 }
 
@@ -36,4 +38,35 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.work-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ddd;
+}
+.about-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ddd;
+}
+.contact-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ddd;
+}
+
+.image img:after{
+    position: absolute;
+    top: 90%;
+    height: 200px;
+    width: 250px;
 }
