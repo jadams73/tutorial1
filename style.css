@@ -29,11 +29,11 @@ body, html {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ddd;
+    color: #000;
 }
 
 .home-image {
-    background-image: url('background.jpg');
+    background-image: url('cat scared.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ body, html {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ddd;
+    color: #000;
 }
 .about-text {
     text-align: center;
@@ -53,7 +53,7 @@ body, html {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ddd;
+    color: #000;
 }
 .contact-text {
     text-align: center;
@@ -61,12 +61,5 @@ body, html {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ddd;
-}
-
-.image img:after{
-    position: absolute;
-    top: 90%;
-    height: 200px;
-    width: 250px;
+    color: #000;
 }
